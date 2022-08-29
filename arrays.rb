@@ -11,6 +11,11 @@ random_floats = [1.1, 2.2, 3.3, 4.4]
 #remove 1.1 from the array and return newly shifted array
 random_floats.shift
 puts random_floats
-random_facts = ["1 + 1 = 2" = true, "I have cats" = true, "I love bananas" = false, "2 equals 3" = false]
+a = 1 = 1
+b = 2 + 2 =4
+c = 3 = 4
+d = 'I love bananas'
+random_facts = [a = true, b = true, c = false, d = false]
 #add elements to the end of the array
-random_facts.push("I think I understand" = true)
+e = "I think I understand"
+random_facts.push(e = true)
